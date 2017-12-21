@@ -1,0 +1,61 @@
+<html lang="en-US">
+<head>
+    <meta charset="utf-8"/>
+    <title>设计IN</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui,uc-fitscreen=no">
+    <script src="CubeScripts/scripts/lib/prototype.js" type="text/javascript" charset="utf-8"></script>
+    <script src="CubeScripts/scripts/lib/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+    <script src="CubeScripts/scripts/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+    <script src="CubeScripts/scripts/apple_core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="CubeScripts/scripts/search_decorator.js" type="text/javascript" charset="utf-8"></script>
+    <script src="CubeScripts/scripts/library.js" type="text/javascript" charset="utf-8"></script>
+    <script src="CubeScripts/vr_spinner.js" type="text/javascript" charset="utf-8"></script>
+    <script src="CubeScripts/vr.js?201609121520" type="text/javascript" charset="utf-8"></script>
+    <script language="javascript">
+        var s = "images/";
+        var ss = "1_cube_";
+        var WaterBool = false;//make water demo
+        var WalkBool = false;//if the script for walk
+        if (!window.isLoaded) {
+            window.addEventListener("load", function () {
+                VirtualTour.init();
+            }, false);
+        }
+        ;
+        function Hi() {
+            VirtualTour.returns();
+        }
+    </script>
+    <link rel="stylesheet" href="styles/vr.css" type="text/css" media="screen"/>
+
+</head>
+<body style="margin:0px">
+<div id="vr" class="container">
+    <section id="vr-main">
+        <div id="vr-clipper">
+            <div id="vr-container">
+                <div id="vr-position">
+                    <div id="rotor-x">
+                        <div id="rotateX">
+                            <div id="rotor-y">
+                                <div id="rotateY">
+                                    <div id="cube"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<!-- BACK -->
+<!--<a href="#">-->
+<!--<img class="back" style="" border="0" src="images/back.png">-->
+<!--</a>-->
+</body>
+</html>
